@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Viga';
+    background-color: #078282;
+    background-image: linear-gradient(to right, #078282, #95DBE5);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@font-face {
+	font-family: 'Quicksand';
+    src: url('../font/Quicksand.ttf');
+}
+@font-face {
+	font-family: 'Dopestyle';
+    src: url('../font/Dopestyle.ttf');
+}
+@font-face {
+	font-family: 'Viga';
+    src: url('../font/Viga-Regular.ttf');
+}
+
+.container{
+    min-width: 100vw;
+}
+.login-form{
+    width: 350px;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.image{
+    text-align: left;
+    height: 100px;
+    line-height: 100px;
+    margin: 40px 25px 5px 30px;
+    padding-left: 50px;
+}
+.image img{
+    float: left;
+    height: 100%;
+}
+.image span{
+    font-family: 'Dopestyle';
+    font-size: 30pt;
+    color: #078282;
+}
+.textbox{
+    border-bottom: 2px solid #adadad;
+    position: relative;
+    margin: 30px 30px 5px 30px;
+    text-align: center;
+}
+.textbox input{
+    font-size: 15px;
+    color: #333;
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 40px;
+    padding: 0 5px;
+}
+.textbox span::before{
+    content: attr(data-placeholder);
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    transform: translateY(-50%);
+    z-index: -1;
+    transition: .5s;
+}
+.textbox span::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 0%;
+    height: 2px;
+    background: linear-gradient(120deg, #95DBE5, #078282);
+    transition: .5s;
+}
+.focus + span::before{top: -5px;}
+.focus + span::after{width: 100%;}
+.create-forgot{
+    margin: 0 30px 10px 30px;
+    font-family: 'Quicksand';
+}
+.create{
+    font-size: 8pt;
+    float: left;
+}
+.create-click{
+    font-size: 8pt;
+    color: #055c5c;
+}
+.forgot{
+    float: right;
+    font-size: 8pt;
+    text-decoration: underline;
+    color: #055c5c;
+}
+.clear{clear: both;}
+.logbtn
+{
+    font-family: 'Viga';
+    text-align: center;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 0 80px 0 80px;
+    height: 40px;
+    border: none;
+    background-color: #078282;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    transition: .5s;
+    margin: 20px 0 15px 0;
+}
+.logbtn:hover
+{
+    background-position: right;
+}
+
+.another-account{
+    cursor: pointer;
+    margin: 0 30px 30px 30px;
+    font-family: 'Quicksand';
+    font-size: 10pt;
+}
+.another-account img{
+    margin-top: 10px;
+    width: 45px;
+    height: 45px;
+}
+
+.reg-form{
+    width: 380px;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding-bottom: 15px;
+}
+.image-reg{
+    text-align: left;
+    height: 100px;
+    line-height: 100px;
+    margin: 40px 25px 5px 30px;
+    padding-left: 25px;
+}
+.image-reg img{
+    float: left;
+    height: 100%;
+}
+.image-reg span{
+    font-family: 'Dopestyle';
+    font-size: 30pt;
+    color: #078282;
+}
