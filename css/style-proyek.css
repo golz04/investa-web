@@ -10,12 +10,17 @@
 	font-family: 'Viga';
     src: url('../font/Viga-Regular.ttf');
 }
+:root {
+    --seablue: #95dbe5;
+    --success: #078282;
+}
 *{
     font-family: 'Viga';
     margin: 0;
     padding: 0;
     text-decoration: none;
     box-sizing: border-box;
+    style
 }
 .navbar{
     background-color: rgba(255, 255, 255, 0);
@@ -105,6 +110,8 @@
     max-height: 100vh;
 
 }
+
+
 .jumbotron-header h1 {
     text-align: center;
     padding-top: 220px;
@@ -113,12 +120,139 @@
     color: white;
 }
 
+/* JUMBOTRON TENGAH */
 .jumbotron-tengah {
-    width: 900px;
+    width: 950px;
     height: 200px;
     background-color: white;
-    border-radius: 8px;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
     margin-top: -100px;
     margin-left: auto;
     margin-right: auto;
+    padding: 15px;
+
 }
+.box-tengah img{
+    width: 130px;
+    margin: 30px;
+    margin-left: 20px;
+    margin-right: 0px;
+    float: left;
+}
+
+.kategori li {
+    width: 300px;
+    height: 161px;
+    float: left;
+    margin-right: 0px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.kategori li img {
+    width: 100px;
+    margin-right: 20px;
+}
+
+.kategori li .teks {
+    margin-top: 40px;
+    padding: 10px;
+    text-align: left;
+    color: var(--success);
+}
+.kategori li span {
+    color: var(--seablue);
+    font-family: Quicksand;
+    font-size: 16px;
+}
+/* AKHIR JUMBOTRON */
+
+
+/* Awal LIST */
+.jumbotron-list {
+    height: 1000px;
+    width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    
+
+}
+
+.jumbotron-card {
+    width: 380px;
+    height: 500px;
+    background-color: white;
+    border: 1px solid #727272;
+    margin-left: 10px;
+    border-radius: 10px;
+    box-shadow: 0 3px rgba(156, 156, 156, 0.9);
+}
+.jumbotron-card img {
+    width: 100%;
+    height: auto;
+    background-image: url('...img/asset/proyek/padi.jpg');
+    border-radius: 10px;
+}
+.card-keterangan-atas p {
+    display: inline;
+    font-family: 'Quicksand';
+}
+.card-keterangan-atas {
+    z-index: 1;
+}
+.card-keterangan-atas button {
+    margin: 10px;
+    border-radius: 10px;
+    font-style: italic;
+    text-decoration: none;
+    border: 0px solid (var(--seablue));
+    background-color: var(--seablue);
+    color: black;
+    padding: 7px 12px;
+    pointer-events: none;
+    font-family: 'Quicksand';
+    font-weight:bolder;
+    font-size: 12px;
+    display: inline;
+}
+
+.card-keterangan-atas li {
+    width: 160px;
+    height: auto;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 12px;
+    
+}
+.card-keterangan-atas li h3 {
+    color: var(--success);
+}
+.card-keterangan-atas li button {
+    text-align: right;
+    margin: 0;
+    background-color: #078282;
+    color: white;
+    font-style: normal;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+.card-keterangan-atas li .button-bawah {
+    height: 30px;
+    width: 380px;
+    border-radius: 1px;
+    text-decoration: none;
+    background-color: var(--success);
+    color: black;
+    padding: 7px 12px;
+    font-weight:bolder;
+    font-size: 12px;
+    display: inline;
+    float: none;
+    
+    
+}
+/* Akhir List */
