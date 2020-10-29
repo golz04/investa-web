@@ -1,0 +1,130 @@
+@font-face {
+	font-family: 'Quicksand';
+    src: url('../font/Quicksand.ttf');
+}
+@font-face {
+	font-family: 'Dopestyle';
+    src: url('../font/Dopestyle.ttf');
+}
+@font-face {
+	font-family: 'Viga';
+    src: url('../font/Viga-Regular.ttf');
+}
+:root {
+    --seablue: #95dbe5;
+    --success: #078282;
+}
+
+*{
+    font-family: 'Viga';
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+.jumbotron-mitra{
+    background-color: #078282;
+    background-image:url('../img/asset/faq/sawah.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100vw;
+    min-height: 60vh;
+    max-height: 60vh;
+}
+.jumbotron-text{
+
+    color: white;
+    text-align: center;
+    width: auto;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 50px;
+}
+
+.jumbotron-title {
+    font-size: 50px;
+}
+.box-search {
+    margin: 10px;
+}
+
+.box-search input {
+    height: 50px;
+    width: 1000px;
+    padding: 20px;
+    border-radius: 20px;
+    border: 0px ;
+    
+}
+.box-search button {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100px;
+    background-color:var(--success);
+    color: white;
+    border: 0px;
+}
+.tagline{
+    height: 300px;
+    background-image: url('../img/asset/female-hand-holding-money-table-nature-background_36577-60.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tagline-container{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.tagline-left{
+    width: 50%;
+    height: 100%;
+    float: left;
+    line-height: 300px;
+    padding-left: 220px;
+}
+.tagline-left button{
+    padding: 10px 50px 10px 50px;
+    background-color: #078282;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 20pt;
+    
+}
+.tagline-right{
+    width: 50%;
+    height: 100%;
+    float: right;
+    color: white;
+    text-align: right;
+    padding: 80px;
+    padding-right: 150px;
+}
+.tagline-right p{
+    font-family: 'Quicksand';
+    font-size: 20pt;
+}
+.tagline-right h1{
+    font-family: 'Quicksand';
+    font-size: 30pt;
+}
+.clear{clear: both;}
+.footer{
+    height: 100vh;
+    background-color: #078282;
+    color: white;
+}
+.footer-title{
+    border: 1px solid black;
+    width: 250px;
+}
+.footer-title img{
+    width: 100%;
+}
