@@ -184,7 +184,7 @@
     width: 380px;
     height: 500px;
     background-color: white;
-    border: 1px solid #727272;
+    border: 1px solid rgb(182, 182, 182);
     margin-left: 10px;
     border-radius: 10px;
     box-shadow: 0 3px rgba(156, 156, 156, 0.9);
@@ -193,7 +193,6 @@
     width: 100%;
     height: auto;
     background-image: url('...img/asset/proyek/padi.jpg');
-    border-radius: 10px;
 }
 .card-keterangan-atas p {
     display: inline;
@@ -255,4 +254,54 @@
     
     
 }
+
 /* Akhir List */
+
+/* Awal Jumbotron Bawah */
+.tagline{
+    height: 300px;
+    background-image: url('../img/asset/female-hand-holding-money-table-nature-background_36577-60.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+}
+.tagline-container{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.tagline-left{
+    width: 50%;
+    height: 100%;
+    float: left;
+    line-height: 300px;
+    padding-left: 220px;
+}
+.tagline-left button{
+    padding: 10px 50px 10px 50px;
+    background-color: #078282;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 20pt;
+    
+}
+.tagline-right{
+    width: 50%;
+    height: 100%;
+    float: right;
+    color: white;
+    text-align: right;
+    padding: 80px;
+    padding-right: 150px;
+}
+.tagline-right p{
+    font-family: 'Quicksand';
+    font-size: 20pt;
+}
+.tagline-right h1{
+    font-family: 'Quicksand';
+    font-size: 30pt;
+}
+/* Akhir Jumbotron Bawah */
