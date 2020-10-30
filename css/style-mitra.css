@@ -146,14 +146,16 @@
 }
 .clear{clear: both;}
 .footer{
-    height: 100vh;
+    /* height: 100vh; */
     background-color: #078282;
     color: white;
+    text-align: center;
+    padding: 20px;
 }
-.footer-title{
+/* .footer-title{
     border: 1px solid black;
     width: 250px;
 }
 .footer-title img{
     width: 100%;
-}
+} */
