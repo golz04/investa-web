@@ -129,14 +129,10 @@
 
 /* Awal LIST */
 .jumbotron-list {
-    height: 1000px;
-    width: 1200px;
-    margin: auto;
-    margin-top: 100px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    
-
+    gap: 10px;
+    margin: 70px;
 }
 
 .jumbotron-card {
