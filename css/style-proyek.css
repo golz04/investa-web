@@ -22,48 +22,7 @@
     box-sizing: border-box;
     style
 }
-.navbar{
-    background-color: rgba(255, 255, 255, 0);
-    overflow: hidden;
-    box-shadow: 0 3px rgba(156, 156, 156, 0.5);
-    position: fixed;
-    width: 100%;
-    z-index: 1;
-}
-.navbar a{
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    height: 70px;
-    line-height: 40px;
-    font-size: 10pt;
-}
-.navbar a img{
-    height: 100%;
-}
-.on-active{
-    border-bottom: 3px solid #078282;
-}
-.navbar .icon-menu{display: none; z-index: 2;}
-.nav-dropdown{
-    float: left;
-    overflow: hidden;
-}
-.nav-dropdown .btn-dropdown{
-    font-size: 10pt;
-    border: none;
-    outline: none;
-    color: black;
-    padding: 14px 16px;
-    line-height: 40px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-    cursor: pointer;
-    transition: 1.5s;
-}
+
 .content-dropdown{
     position: absolute;
     background-color: rgba(255, 255, 255, 1);
