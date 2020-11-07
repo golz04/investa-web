@@ -1,6 +1,5 @@
 .navbar{
     background-color: rgba(255, 255, 255, 1);
-    overflow: hidden;
     box-shadow: 0 3px rgba(156, 156, 156, 0.5);
     position: fixed;
     width: 100%;
@@ -41,11 +40,11 @@
     transition: 1.5s;
 }
 .content-dropdown{
-    position: absolute;
-    background-color: rgba(255, 255, 255, 1);
-    min-width: 150px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
 .content-dropdown a{
@@ -56,9 +55,9 @@
     text-align: left;
 }
 .nav-dropdown:hover .content-dropdown{
-    transition: 1.5s;
-    display: block;
+    display: block !important;
 }
+
 @media screen and (max-width: 730px){
     .navbar a:not(:first-child), .nav-dropdown .btn-dropdown{
         display: none;
