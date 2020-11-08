@@ -5,7 +5,12 @@
     width: 100%;
     z-index: 1;
 }
+.navbar a:hover .navbar a span{
+    border-bottom: 3px solid #078282;
+}
 .navbar a{
+    text-decoration: none;
+    box-sizing: border-box;
     float: left;
     display: block;
     color: black;
@@ -14,6 +19,10 @@
     height: 70px;
     line-height: 40px;
     font-size: 10pt;
+}
+.navbar a span:hover{
+    border-bottom: 3px solid #078282;
+    transition: .2s;
 }
 .navbar a img{
     height: 100%;
@@ -37,7 +46,6 @@
     font-family: inherit;
     margin: 0;
     cursor: pointer;
-    transition: 1.5s;
 }
 .content-dropdown{
     display: none;
@@ -55,7 +63,7 @@
     text-align: left;
 }
 .nav-dropdown:hover .content-dropdown{
-    display: block !important;
+    display: block;
 }
 
 @media screen and (max-width: 730px){
@@ -87,7 +95,6 @@
         display: block;
         width: 100%;
         text-align: left;
-        transition: .5s;
     }
     .res-right{float: none;}
 }
