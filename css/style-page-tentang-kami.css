@@ -1,0 +1,24 @@
+@font-face {
+	font-family: 'Quicksand';
+    src: url('../font/Quicksand.ttf');
+}
+@font-face {
+	font-family: 'Dopestyle';
+    src: url('../font/Dopestyle.ttf');
+}
+@font-face {
+	font-family: 'Viga';
+    src: url('../font/Viga-Regular.ttf');
+}
+:root {
+    --seablue: #95dbe5;
+    --success: #078282;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Viga';
+    background-color: rgb(224, 224, 224);
+}
