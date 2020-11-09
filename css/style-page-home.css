@@ -1,0 +1,143 @@
+@font-face {
+	font-family: 'Quicksand';
+    src: url('../font/Quicksand.ttf');
+}
+@font-face {
+	font-family: 'Dopestyle';
+    src: url('../font/Dopestyle.ttf');
+}
+@font-face {
+	font-family: 'Viga';
+    src: url('../font/Viga-Regular.ttf');
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Viga';
+    background-color: rgb(224, 224, 224);
+}
+.jumbotron-home{
+    height: 100vh;
+    background-image: url('../img/asset/Menabung-Syariah.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+}
+.content-jumbotron{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100vh;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+}
+.content-middle-jumbotron{
+    font-family: 'Quicksand';
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.content-middle-jumbotron h1{font-size: 50pt;}
+.content-middle-jumbotron p{font-size: 20pt;}
+.to-down{margin-top: 35px; cursor: pointer;}
+@-moz-keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        -moz-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40% {
+        -moz-transform: translateY(-30px);
+        transform: translateY(-30px);
+    }
+    60% {
+        -moz-transform: translateY(-15px);
+        transform: translateY(-15px);
+    }
+}
+@-webkit-keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40% {
+        -webkit-transform: translateY(-30px);
+        transform: translateY(-30px);
+    }
+    60% {
+        -webkit-transform: translateY(-15px);
+        transform: translateY(-15px);
+    }
+}
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40% {
+        -moz-transform: translateY(-30px);
+        -ms-transform: translateY(-30px);
+        -webkit-transform: translateY(-30px);
+        transform: translateY(-30px);
+    }
+    60% {
+        -moz-transform: translateY(-15px);
+        -ms-transform: translateY(-15px);
+        -webkit-transform: translateY(-15px);
+        transform: translateY(-15px);
+    }
+}
+.bounce {
+    -moz-animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
+}
+
+.motto-top{
+    width: 80%;
+    margin: 20px auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.motto-top-left{
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Quicksand';
+}
+.motto-top-left p{font-size: 20pt;}
+.motto-top-left h1{font-size: 33pt;}
+.motto-top-left span{font-size: 10pt;}
+.motto-top-left button{
+    padding: 15px 80px;
+    background-color: #078282;
+    border: none;
+    border-radius: 10px;
+    margin-top: 35px;
+    color: white;
+    cursor: pointer;
+}
+.motto-top-left button:hover{
+    background-color: #075e5e;
+    transition: .5s;
+}
+.motto-top-right{
+    text-align: right;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Quicksand';
+}
+.motto-top-right img{
+    width: 54.3%;
+}
+
+.s-proyek{
+    height: 100vh;
+    background-color: #95dbe5;
+}
+.content-proyek{
+    height: 100%;
+    background-color: white;
+}

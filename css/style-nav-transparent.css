@@ -1,0 +1,100 @@
+.navbar{
+    background-color: transparent;
+    /* box-shadow: 0 3px rgba(156, 156, 156, 0.5); */
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+.navbar a:hover .navbar a span{
+    border-bottom: 3px solid #078282;
+}
+.navbar a{
+    text-decoration: none;
+    box-sizing: border-box;
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    height: 70px;
+    line-height: 40px;
+    font-size: 10pt;
+}
+.navbar a span:hover{
+    border-bottom: 3px solid #078282;
+    transition: .2s;
+}
+.navbar a img{
+    height: 100%;
+}
+.on-active{
+    border-bottom: 3px solid #078282;
+}
+.navbar .icon-menu{display: none; z-index: 2;}
+.nav-dropdown{
+    float: left;
+    overflow: hidden;
+}
+.nav-dropdown .btn-dropdown{
+    font-size: 10pt;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    line-height: 40px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    cursor: pointer;
+}
+.content-dropdown{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.content-dropdown a{
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    display: block;
+    text-align: left;
+}
+.nav-dropdown:hover .content-dropdown{
+    display: block;
+}
+
+@media screen and (max-width: 730px){
+    .navbar a:not(:first-child), .nav-dropdown .btn-dropdown{
+        display: none;
+    }
+    .navbar .icon-menu {
+        display: block !important;
+        float: right;
+        color: white;
+        z-index: 3;
+    }
+}
+@media screen and (max-width: 730px){
+    .navbar.responsive{position: relative;}
+    .navbar.responsive .icon-menu{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .navbar.responsive a{
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .navbar.responsive .nav-dropdown{float: none;}
+    .navbar.responsive .content-dropdown{position: relative;}
+    .navbar.responsive .nav-dropdown .btn-dropdown{
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+    .res-right{float: none;}
+}
