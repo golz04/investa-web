@@ -3,32 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mitra | Investa</title>
+    <title>Investa</title>
     <link rel="shortcut icon" href="img/logo/NEW-INVESTA-SIMPLE-BORDER.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/style-nav-transparent.css">
+    <link rel="stylesheet" type="text/css" href="css/style-row-col.css">
     <link rel="stylesheet" type="text/css" href="css/style-faq.css">
-    <link rel="stylesheet" type="text/css" href="css/style-nav-white.css">
+	<link rel="stylesheet" type="text/css" href="vendor/font-awesome/css/all.css">
 </head>
 <body>
     <div class="container">
         <div class="jumbotron-mitra">
             <nav class="navbar" id="navbarWhite">
-                <a href="#">
+                <a href="page-home.html">
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <img src="img/logo/NEW-INVESTA.png" alt="Logo-Investa">
                 </a>
-                <a href="#"><span>PROYEK</span></a>
-                <a href="#"><span>CARA KERJA</span></a>
-                <a href="#"><span>MITRA</span></a>
+                <a href="page-home.html"><span class="on-active">HOME</span></a>
+                <a href="page-proyek.html"><span>PROYEK</span></a>
+                <a href="page-cara-kerja.html"><span>CARA KERJA</span></a>
+                <a href="page-mitra.html"><span>MITRA</span></a>
                 <div class="nav-dropdown">
                     <button type="button" class="btn-dropdown">LAINNYA</button>
                     <div class="content-dropdown">
-                        <a href="#">TENTANG KAMI</a>
-                        <a href="#" class="on-active">FAQ</a>
+                        <a href="page-tentang-kami.html">TENTANG KAMI</a>
+                        <a href="page-faq.html">FAQ</a>
                     </div>
                 </div>
-                <a href="#" class="res-right" style="float: right;"><span>REGISTER &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></a>
-                <a href="#" class="res-right" style="float: right;"><span class="on-active">LOGIN</span></a>
-
+                <a href="page-register.html" class="res-right" style="float: right;"><span>REGISTER</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                <a href="page-login.html" class="res-right" style="float: right;"><span class="on-active">LOGIN</span></a>
+    
                 <a href="javascript:void(0);" class="icon-menu" style="font-size: 15pt;" onclick="openNav()">&#9776; &nbsp;</a>
             </nav>
 
@@ -82,11 +85,37 @@
             </div>
         </section>
         <section class="footer">
-            <div class="footer-title">
-                <!-- <img src="img/logo/NEW-INVESTA-BORDER.png" alt="Logo-Investa"> -->
+            <div class="footer-top">
+                <div class="footer-top-content">
+                    <div class="footer-top-image">
+                        <img src="img/logo/NEW-INVESTA-SIMPLE-BORDER.png" alt="logo-footer">
+                        <hr>
+                    </div>
+                    <div class="footer-sosmed">
+                        <div class="sosmed-icon">
+                            <img src="img/icon/Facebook Old_500px.png" alt="facebook">
+                        </div>
+                        <div class="sosmed-icon">
+                            <img src="img/icon/instagram_new_500px.png" alt="instagram">
+                        </div>
+                        <div class="sosmed-icon">
+                            <img src="img/icon/twitter_500px.png" alt="twitter">
+                        </div>
+                        <div class="sosmed-icon">
+                            <img src="img/icon/whatsapp_500px.png" alt="whatsapp">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; Copyright 2020 | Investa All Right Reserved
             </div>
         </section>
     </div>
-    <script src="js/style-responsive-nav.js"></script>
+    <script type="text/javascript" src="js/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="vendor/font-awesome/js/all.js"></script>
+    <script type="text/javascript" src="js/style-responsive-nav.js"></script>
+    <script type="text/javascript" src="js/style-target-bounce.js"></script>
+    <script type="text/javascript" src="js/style-scroll-nav.js"></script>
 </body>
 </html>
