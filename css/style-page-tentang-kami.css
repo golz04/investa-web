@@ -55,3 +55,24 @@ body{
 .kanan .col-5 {
     margin-top: 110px;
 }
+
+.konten-3 {
+    margin: 0px auto;
+    text-align: center;
+    width: 80%;
+    margin: 0px auto;
+    padding-bottom: 10px;
+    font-size: smaller;
+}
+.konten-3 h1 {
+    margin: 10px;
+}
+.konten-3 .col-4 {
+    margin-left: 10px;
+}
+.img-konten-3-1 {
+    margin: 0px;
+}
+.img-konten-3-1 img {
+    width:100% ;
+}
