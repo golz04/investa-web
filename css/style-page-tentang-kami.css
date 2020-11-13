@@ -64,6 +64,9 @@ body{
     padding-bottom: 10px;
     font-size: smaller;
 }
+.konten-3 .row {
+    padding: auto;
+}
 .konten-3 h1 {
     margin: 10px;
 }
@@ -74,5 +77,5 @@ body{
     margin: 0px;
 }
 .img-konten-3-1 img {
-    width:100% ;
+    width: 80% ;
 }
