@@ -11,9 +11,11 @@
     src: url('../font/Viga-Regular.ttf');
 }
 *{
-    font-family: 'Viga';
     margin: 0;
     padding: 0;
+}
+body{
+    font-family: 'Viga';
     text-decoration: none;
     box-sizing: border-box;
 }
@@ -99,100 +101,86 @@
     transition: .5s;
     background-color: #075e5e;
 }
-.tagline{
-    height: 300px;
+
+
+.s-motto-bottom{
     background-image: url('../img/asset/female-hand-holding-money-table-nature-background_36577-60.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
+    background-position: center;
+    height: 250px;
+    font-family: 'Quicksand';
 }
-.tagline-container{
+.container-motto-bottom{
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.7);
 }
-.tagline-left{
-    width: 50%;
+.content-motto-bottom{
+    margin: auto;
+    width: 85%;
     height: 100%;
-    float: left;
-    line-height: 300px;
-    padding-left: 220px;
 }
-.tagline-left button{
-    padding: 10px 50px 10px 50px;
+.motto-bottom-left{text-align: center;}
+.motto-bottom-left button{
+    margin-top: 100px;
+    padding: 15px 80px;
     background-color: #078282;
-    transition: .5s;
     border: none;
+    border-radius: 10px;
     color: white;
-    border-radius: 5px;
-    font-size: 15pt;
     cursor: pointer;
-    
 }
-.tagline-left button:hover{
+.motto-bottom-left button:hover{
     background-color: #075e5e;
     transition: .5s;
-} 
-.tagline-right{
-    width: 50%;
-    height: 100%;
-    float: right;
+}
+.motto-bottom-right{
     color: white;
     text-align: right;
-    padding: 80px;
-    padding-right: 150px;
+    padding: 50px;
 }
-.tagline-right p{
-    font-family: 'Quicksand';
-    font-size: 20pt;
-}
-.tagline-right h1{
-    font-family: 'Quicksand';
-    font-size: 30pt;
-}
-.clear{clear: both;}
+.motto-bottom-right p{font-size: 20pt;}
+.motto-bottom-right h1{font-size: 30pt;}
 
-
-.footer-top{
-    height: auto;
+.s-footer{
     background-color: #078282;
-}
-.footer-top-content{
-    width: 100%;
-    height: 100%;
-    border: 1px solid #078282;
-    text-align: center;
-}
-.footer-top-image{
-    height: 100px;
-    width: auto;
-    margin: 50px auto;
-}
-.footer-top-image img{height: 100%;}
-.footer-top-image hr{
-    width: 350px;
-    margin: 10px auto;
-}
-.footer-sosmed{
-    padding: 10px;
-    margin-top: 20px;
-    margin-bottom: 50px;
-    text-align: center;
-}
-.sosmed-icon{
-    width: 30px;
-    height: 30px;
-    margin-left: 10px;
-    margin-right: 10px;
-    display: inline-block;
-}
-.sosmed-icon img{
-    width: 100%;
-    height: 100%;
-}
-.footer-bottom{
-    background-color: #094343;
     color: white;
+    font-family: 'Quicksand';
+}
+.content-footer{
+    margin: auto;
+    width: 90%;
+    height: 100%;
+}
+.footer-title{
     text-align: center;
-    padding: 20px;
+    margin: 30px;
+    margin-top: 50px;
+}
+.footer-title img{
+    margin-right: 5px;
+    width: 70px;
+    height: auto;
+    vertical-align: middle;
+}
+.footer-title span{
+    font-size: 15pt;
+    vertical-align: middle;
+    font-weight: bolder;
+}
+.content-title-footer{
+    font-size: 12pt;
+    font-weight: bold;
+}
+.content-desc-footer p{
+    font-size: 10pt;
+    margin: 10px 10px 10px 0;
+}
+.footer{
+    text-align: center;
+    padding: 10px;
+    background-color: #075e5e;
+    font-size: 11pt;
 }
