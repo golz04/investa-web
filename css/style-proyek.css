@@ -22,7 +22,6 @@
     box-sizing: border-box;
 }
 
-<<<<<<< HEAD
 .navbar{
     background-color: transparent;
     overflow: hidden;
@@ -65,8 +64,6 @@
     cursor: pointer;
     transition: 1.5s;
 }
-=======
->>>>>>> 3bb56250ae41c9f5727059299ca1a81966111f37
 .content-dropdown{
     position: absolute;
     background-color: rgba(255, 255, 255, 1);
