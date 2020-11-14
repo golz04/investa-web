@@ -420,4 +420,45 @@ body{
     padding: 50px;
 }
 .motto-bottom-right p{font-size: 20pt;}
-.motto-bottom-right h1{font-size: 33pt;}
+.motto-bottom-right h1{font-size: 30pt;}
+
+.s-footer{
+    background-color: #078282;
+    color: white;
+    font-family: 'Quicksand';
+}
+.content-footer{
+    margin: auto;
+    width: 90%;
+    height: 100%;
+}
+.footer-title{
+    text-align: center;
+    margin: 30px;
+    margin-top: 50px;
+}
+.footer-title img{
+    margin-right: 5px;
+    width: 70px;
+    height: auto;
+    vertical-align: middle;
+}
+.footer-title span{
+    font-size: 15pt;
+    vertical-align: middle;
+    font-weight: bolder;
+}
+.content-title-footer{
+    font-size: 12pt;
+    font-weight: bold;
+}
+.content-desc-footer p{
+    font-size: 10pt;
+    margin: 10px 10px 10px 0;
+}
+.footer{
+    text-align: center;
+    padding: 10px;
+    background-color: #075e5e;
+    font-size: 11pt;
+}
