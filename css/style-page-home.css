@@ -314,7 +314,7 @@ body{
 }
 .reason-title{
     margin: 10px;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
     text-align: center;
     font-weight: bold;
     font-size: 20pt;
@@ -342,11 +342,39 @@ body{
 
 .s-testimoni{
     background-color: lightgray;
-    height: 100vh;
-}
-.container-testimoni{
-    border: 1px solid black;
+    height: auto;
+    padding-bottom: 50px;
 }
 .content-testimoni{
-    border: 1px solid black;
+    font-family: 'Quicksand';
+    width: 70%;
+    margin: auto
 }
+.testimoni-title{
+    text-align: center;
+    margin: 15px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-size: 20pt;
+}
+.testimoni-desc{
+    margin: 10px;
+    text-align: center;
+}
+.testimoni-desc-img{
+    width: 200px;
+    height: 200px;
+    margin: 5px auto;
+}
+.testimoni-desc-img img{width: 100%; height: 100%;}
+.testimoni-desc-name{
+    font-size: 15pt;
+    font-weight: bold;
+}
+.testimoni-desc-role{
+    font-size: 12pt;
+    font-weight: bold;
+    font-style: italic;
+}
+.testimoni-desc-motto{font-size: 10pt;}
