@@ -184,7 +184,7 @@ body{
 }
 .card-content{
     font-family: 'Quicksand';
-    padding: 10px;
+    padding: 15px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     font-family: 'Quicksand';
@@ -204,20 +204,92 @@ body{
     font-weight: bold;
     height: 20px;
     margin: 5px;
-    margin: 5px;
     text-align: right;
     padding: 3px;
     font-size: 10pt;
 }
 .left-child-title p{
-    border: 1px solid black;
     margin: 5px 5px 0 5px;
-    font-size: 10pt;
+    font-size: 9pt;
     text-align: left;
 }
 .right-child-title p{
-    border: 1px solid black;
     margin: 5px 5px 0 5px;
-    font-size: 10pt;
+    font-size: 9pt;
     text-align: right;
+}
+.left-child-desc p{
+    margin: 0 5px 0 5px;
+    text-align: left;
+    font-family: 'Viga';
+    font-size: 11pt;
+    color: #075e5e;
+}
+.right-child-desc p{
+    margin: 0 5px 0 5px;
+    text-align: right;
+    font-family: 'Viga';
+    font-size: 11pt;
+    color: #075e5e;
+}
+.right-child-desc span{
+    background-color: #078282;
+    color: white;
+    border-radius: 5px;
+    padding: 2px 10px 2px 10px;
+}
+.card-footer-left{
+    margin: 3px;
+    color: darkgray;
+    font-size: 10pt;
+    text-align: left;
+}
+.card-footer-left span{font-size: 8pt;}
+.card-footer-right{
+    margin: 3px;
+    text-align: right;
+    padding: 6px;
+}
+.card-footer-right span{
+    background-color: #95dbe5;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 8px;
+    font-size: 10pt;
+    font-family: 'Viga';
+}
+.btn-card-bottom{
+    font-style: italic;
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #078282;
+    margin: 0;
+    text-align: center;
+    color: white;
+    padding: 8px 0 8px 0;
+    transition: .5s;
+    font-size: 11pt;
+}
+.btn-card-bottom:hover{
+    background-color: #075e5e;
+    transition: .5s;
+}
+.btn-card-bottom-done{
+    font-style: italic;
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+    background-color: #95dbe5;
+    margin: 0;
+    cursor: not-allowed;
+    text-align: center;
+    color: darkgray;
+    padding: 8px 0 8px 0;
+    transition: .5s;
+    font-size: 11pt;
 }

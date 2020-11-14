@@ -6,7 +6,6 @@
 [class*="col-"] {
     float: left;
     box-sizing: border-box;
-    border: 1px solid black;
 }
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
