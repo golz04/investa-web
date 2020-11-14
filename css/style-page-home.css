@@ -137,7 +137,87 @@ body{
     height: 100vh;
     background-color: #95dbe5;
 }
-.content-proyek{
+.container-proyek{
     height: 100%;
     background-color: white;
+    clip-path: polygon(100% 0, 100% 90%, 50% 100%, 0 90%, 0 0);
+}
+.content-proyek{
+    width: 85%;
+    margin: auto;
+}
+.proyek-title{
+    text-align: center;
+    margin: 20px;
+}
+.proyek-title span{
+    font-size: 20pt;
+    font-weight: bold;
+    border-bottom: 3px solid #078282;
+}
+.proyek-desc{
+    margin: 0 20px 20px 20px;
+}
+.card-proyek{
+    margin: 15px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .5s;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.card-proyek:hover{
+    transition: .5s;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+}
+.card-image{
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.card-image img{
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.card-content{
+    font-family: 'Quicksand';
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-family: 'Quicksand';
+}
+.card-content-left {
+    background-color: #95dbe5;
+    margin: 5px;
+    height: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+    padding: 3px;
+    border-radius: 10px;
+    font-size: 10pt;
+}
+.card-content-right {
+    font-weight: bold;
+    height: 20px;
+    margin: 5px;
+    margin: 5px;
+    text-align: right;
+    padding: 3px;
+    font-size: 10pt;
+}
+.left-child-title p{
+    border: 1px solid black;
+    margin: 5px 5px 0 5px;
+    font-size: 10pt;
+    text-align: left;
+}
+.right-child-title p{
+    border: 1px solid black;
+    margin: 5px 5px 0 5px;
+    font-size: 10pt;
+    text-align: right;
 }
