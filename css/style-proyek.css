@@ -168,91 +168,167 @@
 /* AKHIR JUMBOTRON */
 
 
-/* Awal LIST */
-.jumbotron-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 10px;
-    margin: 70px;
-}
+/* Awal LIST KOTAK KOTAK */
 
-.jumbotron-card {
-    width: 380px;
-    height: 510px;
+.s-proyek{
+    height: 100vh;
+}
+.container-proyek{
+    height: 100%;
     background-color: white;
-    border: 1px solid rgb(182, 182, 182);
-    margin-left: 10px;
-    border-radius: 10px;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-    box-shadow: 0 3px rgba(156, 156, 156, 0.9);
 }
-.jumbotron-card img {
+.content-proyek{
+    width: 85%;
+    margin: auto;
+}
+.proyek-title{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 120px;
+}
+.proyek-title span{
+    font-size: 30pt;
+    font-weight: bold;
+    border-bottom: 3px solid #078282;
+}
+.proyek-desc{
+    margin: 0 20px 20px 20px;
+}
+.card-proyek{
+    margin: 15px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .5s;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.card-proyek:hover{
+    transition: .5s;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+}
+.card-image{
     width: 100%;
-    height: auto;
-    background-image: url('...img/asset/proyek/padi.jpg');
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
-.card-keterangan-atas p {
-    display: inline;
+.card-image img{
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.card-content{
+    font-family: 'Quicksand';
+    padding: 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     font-family: 'Quicksand';
 }
-.card-keterangan-atas {
-    z-index: 1;
-}
-.card-keterangan-atas button {
-    margin: 10px;
-    border-radius: 10px;
+.card-content-left {
+    background-color: #95dbe5;
+    margin: 5px;
+    height: 20px;
+    font-weight: bold;
+    text-align: center;
     font-style: italic;
-    text-decoration: none;
-    border: 0px solid (var(--seablue));
-    background-color: var(--seablue);
-    color: black;
-    padding: 7px 12px;
-    pointer-events: none;
-    font-family: 'Quicksand';
-    font-weight:bolder;
-    font-size: 12px;
-    display: inline;
+    padding: 3px;
+    border-radius: 10px;
+    font-size: 10pt;
 }
-
-.card-keterangan-atas li {
-    width: 160px;
-    height: auto;
-    float: left;
-    margin-left: 20px;
-    margin-top: 10px;
-    font-size: 12px;
-    list-style-type: none;
-}
-.card-keterangan-atas li h3 {
-    color: var(--success);
-}
-.card-keterangan-atas li button {
+.card-content-right {
+    font-weight: bold;
+    height: 20px;
+    margin: 5px;
     text-align: right;
-    margin: 0;
+    padding: 3px;
+    font-size: 10pt;
+}
+.left-child-title p{
+    margin: 5px 5px 0 5px;
+    font-size: 9pt;
+    text-align: left;
+}
+.right-child-title p{
+    margin: 5px 5px 0 5px;
+    font-size: 9pt;
+    text-align: right;
+}
+.left-child-desc p{
+    margin: 0 5px 0 5px;
+    text-align: left;
+    font-family: 'Viga';
+    font-size: 11pt;
+    color: #075e5e;
+}
+.right-child-desc p{
+    margin: 0 5px 0 5px;
+    text-align: right;
+    font-family: 'Viga';
+    font-size: 11pt;
+    color: #075e5e;
+}
+.right-child-desc span{
     background-color: #078282;
     color: white;
-    font-style: normal;
-    padding: 5px 10px;
-    font-size: 12px;
+    border-radius: 5px;
+    padding: 2px 10px 2px 10px;
 }
-
-.card-keterangan-atas li .button-bawah {
-    height: 30px;
-    width: 380px;
-    border-radius: 1px;
-    text-decoration: none;
-    background-color: var(--success);
-    color: black;
-    padding: 7px 12px;
-    font-weight:bolder;
-    font-size: 12px;
-    display: inline;
-    float: none;
-    
-    
+.card-footer-left{
+    margin: 3px;
+    color: darkgray;
+    font-size: 10pt;
+    text-align: left;
 }
-
+.card-footer-left span{font-size: 8pt;}
+.card-footer-right{
+    margin: 3px;
+    text-align: right;
+    padding: 6px;
+}
+.card-footer-right span{
+    background-color: #95dbe5;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 8px;
+    font-size: 10pt;
+    font-family: 'Viga';
+}
+.btn-card-bottom{
+    font-style: italic;
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #078282;
+    margin: 0;
+    text-align: center;
+    color: white;
+    padding: 8px 0 8px 0;
+    transition: .5s;
+    font-size: 11pt;
+}
+.btn-card-bottom:hover{
+    background-color: #075e5e;
+    transition: .5s;
+}
+.btn-card-bottom-done{
+    font-style: italic;
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+    background-color: #95dbe5;
+    margin: 0;
+    cursor: not-allowed;
+    text-align: center;
+    color: darkgray;
+    padding: 8px 0 8px 0;
+    transition: .5s;
+    font-size: 11pt;
+}
 /* Akhir List */
 
 /* Awal Jumbotron Bawah */
