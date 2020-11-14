@@ -55,27 +55,192 @@ body{
 .kanan .col-5 {
     margin-top: 110px;
 }
-
-.konten-3 {
-    margin: 0px auto;
+.mitra-terbaik .foto-1 {
+    width: 90%;
+    margin: 30px auto;
+}
+.mitra-terbaik img {
+    width: 100%;
+    border-radius: 10px;
+    margin: 10xp;
+}
+.mitra-terbaik .row {
+    margin: 10px auto;
+}
+.mitra-terbaik .col-3 {
+    margin: 50px;
+}
+.bio {
     text-align: center;
-    width: 80%;
-    margin: 0px auto;
-    padding-bottom: 10px;
-    font-size: smaller;
 }
-.konten-3 .row {
-    padding: auto;
-}
-.konten-3 h1 {
+
+.social-media {
+    height: 400px;
+    background-color: var(--seablue);
+    padding: 30px;
     margin: 10px;
 }
-.konten-3 .col-4 {
+.social-media h1 {
+    text-align: center;
+    font-size: 30px;
+}
+.sosmed .row {
+    text-align: center;
+    margin-top: 50px;
+}
+.sosmed .col-4{
+}
+.ig img {
+    padding: 30px;
+    width: 30%;
+    background-color: white;
+    border-radius: 50%;
+}
+.ig p {
+    margin-top: 20px;
+    font-size: 25px;
+}
+.tagline{
+    height: 300px;
+    background-image: url('../img/asset/female-hand-holding-money-table-nature-background_36577-60.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 50px;
+}
+.tagline-container{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.tagline-left{
+    width: 50%;
+    height: 100%;
+    float: left;
+    line-height: 300px;
+    padding-left: 220px;
+}
+.tagline-left button{
+    padding: 10px 50px 10px 50px;
+    background-color: #078282;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 20pt;
+    
+}
+.tagline-right{
+    width: 50%;
+    height: 100%;
+    float: right;
+    color: white;
+    text-align: right;
+    padding: 80px;
+    padding-right: 150px;
+}
+.tagline-right p{
+    font-family: 'Quicksand';
+    font-size: 20pt;
+}
+.tagline-right h1{
+    font-family: 'Quicksand';
+    font-size: 30pt;
+}
+.clear{clear: both;}
+.footer{
+    height: 50vh;
+    background-color: #078282;
+    color: white;
+}
+.footer-title{
+    border: 1px solid black;
+    width: 250px;
+}
+.footer-title img{
+    width: 100%;
+}
+.question h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 40px;
+
+}
+.top-question {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    gap: 20px;
+    margin: 50px 200px 100px 200px;
+
+}
+.question-box button{
+    background-color: var(--success);
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 3px #999;
+    font-size: 14px;
+    padding: 10px;
+}
+.question-box button:hover{
+    background-color: var(--seablue);
+}
+
+.question-box button:active {
+    background-color:var(--success);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.question-box img {
+    width: 50%;
+    padding: 10px;
+}
+
+
+.footer-top{
+    height: auto;
+    background-color: #078282;
+}
+.footer-top-content{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #078282;
+    text-align: center;
+}
+.footer-top-image{
+    height: 100px;
+    width: auto;
+    margin: 50px auto;
+}
+.footer-top-image img{height: 100%;}
+.footer-top-image hr{
+    width: 350px;
+    margin: 10px auto;
+}
+.footer-sosmed{
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.sosmed-icon{
+    width: 30px;
+    height: 30px;
     margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block;
 }
-.img-konten-3-1 {
-    margin: 0px;
+.sosmed-icon img{
+    width: 100%;
+    height: 100%;
 }
-.img-konten-3-1 img {
-    width: 80% ;
+.footer-bottom{
+    background-color: #094343;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
