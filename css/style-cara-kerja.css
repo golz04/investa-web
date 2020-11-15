@@ -16,8 +16,106 @@
 }
 body{
     font-family: 'Viga';
-    background-color: rgb(224, 224, 224);
 }
+
+
+.jumbotron-cara-kerja{
+    background-color: #078282;
+    background-image: linear-gradient(to right, #078282, #094343);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100vw;
+    min-height: 100vh;
+    max-height: 100vh;
+}
+.jumbotron-text{
+    color: white;
+    text-align: center;
+    width: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.jumbotron-title{
+    font-family: 'Dopestyle';
+    font-size: 80pt;
+}
+.jumbotron-description{
+    font-size: 25pt;
+    margin-top: 10px;
+}
+
+
+.on-middle{vertical-align: middle;}
+
+
+.s-ganjil{
+    height: auto;
+    background-color: white;
+}
+.container-ganjil{
+    background-color: #95dbe5;
+    height: auto;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+}
+.content-ganjil{
+    width: 85%;
+    margin: auto;
+}
+.ganjil-left-image{
+    text-align: center;
+    margin: 50px;
+}
+.ganjil-left-image img{width: 50%;}
+.ganjil-right-container{
+    margin: 50px;
+    text-align: right;
+}
+.ganjil-right-title{
+    font-weight: bold;
+    font-size: 20pt;
+    margin-bottom: 30px;
+}
+.ganjil-right-desc{
+    font-family: 'Quicksand';
+    font-size: 10pt;
+}
+
+
+.s-genap{
+    height: auto;
+    background-color: white;
+}
+.container-genap{
+    background-color: white;
+    height: auto;
+}
+.content-genap{
+    width: 85%;
+    margin: auto;
+}
+.genap-right-image{
+    text-align: center;
+    margin: 50px;
+}
+.genap-right-image img{width: 50%;}
+.genap-left-container{
+    margin: 50px;
+    text-align: left;
+}
+.genap-left-title{
+    font-weight: bold;
+    font-size: 20pt;
+    margin-bottom: 30px;
+}
+.genap-left-desc{
+    font-family: 'Quicksand';
+    font-size: 10pt;
+}
+
+
 .s-motto-bottom{
     background-image: url('../img/asset/female-hand-holding-money-table-nature-background_36577-60.jpg');
     background-attachment: fixed;
