@@ -118,18 +118,6 @@
     font-size: 30pt;
 }
 .clear{clear: both;}
-.footer{
-    height: 50vh;
-    background-color: #078282;
-    color: white;
-}
-.footer-title{
-    border: 1px solid black;
-    width: 250px;
-}
-.footer-title img{
-    width: 100%;
-}
 .question h1 {
     text-align: center;
     font-size: 40px;
@@ -170,7 +158,6 @@
     width: 50%;
     padding: 10px;
 }
-
 .s-footer{
     background-color: #078282;
     color: white;
