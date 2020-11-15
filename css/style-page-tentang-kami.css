@@ -97,54 +97,49 @@ body{
     margin-top: 20px;
     font-size: 25px;
 }
-.tagline{
-    height: 300px;
+
+
+
+.s-motto-bottom{
     background-image: url('../img/asset/female-hand-holding-money-table-nature-background_36577-60.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 100px;
+    background-size: 100%;
+    background-position: center;
+    height: 250px;
+    font-family: 'Quicksand';
 }
-.tagline-container{
+.container-motto-bottom{
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.7);
 }
-.tagline-left{
-    width: 50%;
+.content-motto-bottom{
+    margin: auto;
+    width: 85%;
     height: 100%;
-    float: left;
-    line-height: 300px;
-    padding-left: 220px;
 }
-.tagline-left button{
-    padding: 10px 50px 10px 50px;
+.motto-bottom-left{text-align: center;}
+.motto-bottom-left button{
+    margin-top: 100px;
+    padding: 15px 80px;
     background-color: #078282;
     border: none;
+    border-radius: 10px;
     color: white;
-    border-radius: 5px;
-    font-size: 20pt;
-    
+    cursor: pointer;
 }
-.tagline-right{
-    width: 50%;
-    height: 50%;
-    float: right;
+.motto-bottom-left button:hover{
+    background-color: #075e5e;
+    transition: .5s;
+}
+.motto-bottom-right{
     color: white;
     text-align: right;
-    margin-top: -210px;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-    padding-right: 90px;
+    padding: 50px;
 }
-.tagline-right p{
-    font-family: 'Quicksand';
-    font-size: 20pt;
-}
-.tagline-right h1{
-    font-family: 'Quicksand';
-    font-size: 30pt;
-}
+.motto-bottom-right p{font-size: 20pt;}
+.motto-bottom-right h1{font-size: 30pt;}
 
 .s-footer{
     background-color: #078282;
