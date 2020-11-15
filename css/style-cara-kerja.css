@@ -1,0 +1,101 @@
+@font-face {
+	font-family: 'Quicksand';
+    src: url('../font/Quicksand.ttf');
+}
+@font-face {
+	font-family: 'Dopestyle';
+    src: url('../font/Dopestyle.ttf');
+}
+@font-face {
+	font-family: 'Viga';
+    src: url('../font/Viga-Regular.ttf');
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Viga';
+    background-color: rgb(224, 224, 224);
+}
+.s-motto-bottom{
+    background-image: url('../img/asset/female-hand-holding-money-table-nature-background_36577-60.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    height: 250px;
+    font-family: 'Quicksand';
+}
+.container-motto-bottom{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.content-motto-bottom{
+    margin: auto;
+    width: 85%;
+    height: 100%;
+}
+.motto-bottom-left{text-align: center;}
+.motto-bottom-left button{
+    margin-top: 100px;
+    padding: 15px 80px;
+    background-color: #078282;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+.motto-bottom-left button:hover{
+    background-color: #075e5e;
+    transition: .5s;
+}
+.motto-bottom-right{
+    color: white;
+    text-align: right;
+    padding: 50px;
+}
+.motto-bottom-right p{font-size: 20pt;}
+.motto-bottom-right h1{font-size: 30pt;}
+
+.s-footer{
+    background-color: #078282;
+    color: white;
+    font-family: 'Quicksand';
+}
+.content-footer{
+    margin: auto;
+    width: 90%;
+    height: 100%;
+}
+.footer-title{
+    text-align: center;
+    margin: 30px;
+    margin-top: 50px;
+}
+.footer-title img{
+    margin-right: 5px;
+    width: 70px;
+    height: auto;
+    vertical-align: middle;
+}
+.footer-title span{
+    font-size: 15pt;
+    vertical-align: middle;
+    font-weight: bolder;
+}
+.content-title-footer{
+    font-size: 12pt;
+    font-weight: bold;
+}
+.content-desc-footer p{
+    font-size: 10pt;
+    margin: 10px 10px 10px 0;
+}
+.footer{
+    text-align: center;
+    padding: 10px;
+    background-color: #075e5e;
+    font-size: 11pt;
+}
