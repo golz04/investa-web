@@ -1,0 +1,239 @@
+@font-face {
+	font-family: 'Quicksand';
+    src: url('../font/Quicksand.ttf');
+}
+@font-face {
+	font-family: 'Dopestyle';
+    src: url('../font/Dopestyle.ttf');
+}
+@font-face {
+	font-family: 'Viga';
+    src: url('../font/Viga-Regular.ttf');
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Viga';
+    background-color: white;
+}
+
+
+.s-info{
+    background-color: white;
+}
+.container-info{
+    padding: 50px;
+    padding-top:100px;
+
+}
+.content-info{
+    width: 95%;
+    margin: auto;
+}
+.image-info{
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+}
+.image-info img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.info-dana-terkumpul{
+    text-align: left;
+    font-size: 10pt;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #075e5e;
+    font-weight: bold;
+}
+.info-target-dana{
+    text-align: right;
+    font-size: 10pt;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.target{
+    border: 3px solid rgb(128, 128, 128);
+}
+.collected{
+    border: 3px solid #075e5e;
+    width: 50%;
+    margin-top: -6px;
+}
+.box-percentage{
+    text-align: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    text-align: 10pt;
+}
+.box-percentage span{
+    background-color: #95dbe5;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 10pt;
+}
+.container-info-detail{
+    margin-top: 15px;
+    margin-left: 30px;
+    font-family: 'Quicksand';
+}
+.label-sector span{
+    background-color: #95dbe5;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 13pt;
+    font-style: italic;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.title-info{
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-weight: bolder;
+    font-size: 15pt;
+}
+.label-title{
+    font-size: 13pt;
+    font-weight: bold;
+}
+.label-desc{
+    font-size: 10pt;
+    color: #075e5e;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.btn-download{
+    margin: 10px;
+    width: 200px;
+    height: 35px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #078282;
+    color: white;
+    transition: .5s;
+}
+.btn-download:hover{
+    background-color: #075e5e;
+    transition: .5s;
+}
+.btn-invest{
+    margin: 10px;
+    width: 200px;
+    height: 35px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #95dbe5;
+    color: black;
+    transition: .5s;
+}
+.btn-invest:hover{
+    background-color: #83bec7;
+    transition: .5s;
+}
+
+
+.break{
+    margin: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+
+.about-info-title{font-size: 17pt;}
+.about-info-desc{
+    font-size: 10pt;
+    font-family: 'Quicksand';
+    margin-bottom: 20px;
+}
+
+
+.s-motto-bottom{
+    background-image: url('../img/asset/female-hand-holding-money-table-nature-background_36577-60.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    height: 250px;
+    font-family: 'Quicksand';
+}
+.container-motto-bottom{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.content-motto-bottom{
+    margin: auto;
+    width: 85%;
+    height: 100%;
+}
+.motto-bottom-left{text-align: center;}
+.motto-bottom-left button{
+    margin-top: 100px;
+    padding: 15px 80px;
+    background-color: #078282;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+.motto-bottom-left button:hover{
+    background-color: #075e5e;
+    transition: .5s;
+}
+.motto-bottom-right{
+    color: white;
+    text-align: right;
+    padding: 50px;
+}
+.motto-bottom-right p{font-size: 20pt;}
+.motto-bottom-right h1{font-size: 30pt;}
+
+.s-footer{
+    background-color: #078282;
+    color: white;
+    font-family: 'Quicksand';
+}
+.content-footer{
+    margin: auto;
+    width: 90%;
+    height: 100%;
+}
+.footer-title{
+    text-align: center;
+    margin: 30px;
+    margin-top: 50px;
+}
+.footer-title img{
+    margin-right: 5px;
+    width: 70px;
+    height: auto;
+    vertical-align: middle;
+}
+.footer-title span{
+    font-size: 15pt;
+    vertical-align: middle;
+    font-weight: bolder;
+}
+.content-title-footer{
+    font-size: 12pt;
+    font-weight: bold;
+}
+.content-desc-footer p{
+    font-size: 10pt;
+    margin: 10px 10px 10px 0;
+}
+.footer{
+    text-align: center;
+    padding: 10px;
+    background-color: #075e5e;
+    font-size: 11pt;
+}
